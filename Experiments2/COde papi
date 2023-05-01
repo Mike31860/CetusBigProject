@@ -1,0 +1,76 @@
+gcc mem1L2_TLB.c -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib -o mem1TLB -lm -lpapi -O3
+source /home/miguel/.bashrc
+echo 0 > /proc/sys/kernel/perf_event_paranoid
+papi avail
+Get variables etornor
+cat ~/.bashrc
+
+
+//Networks
+scp -r udpclient.c udpserver.c list.h miguelro@cisc650.cis.udel.edu/proj1
+password: MikeAngel@31860
+ping cisc650.cis.udel.edu
+make Makefile udpserver udpclient
+make Makefile clean
+
+export PAPI_DIR=/home/miguel/Desktop/TestNewScript/papi/src/install
+export PATH=${PAPI_DIR}/bin:$PATH
+export LD_LIBRARY_PATH=${PAPI_DIR}/lib:$LD_LIBRARY_PATH
+
+ssh hpcguest2342@caviness.hpc.udel.edu
+X2uxlmoBCEuxWtRK
+workgroup -g parot 
+squeue -u $USER
+ 
+//EXECUTOON GCC
+//cg
+gcc -O3 cg.c -o cgExec ../common/print_results.c ../common/randdp.c ../common/c_timers.c ../common/wtime.c -lm
+
+
+
+
+
+
+
+
+//PAPI
+//CG
+gcc  -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib cg.c -o papi_CG ../common/print_results.c ../common/randdp.c ../common/c_timers.c ../common/wtime.c -lpapi -lm
+
+//MG
+gcc  -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib mg.c -o papi_MG ../common/print_results.c ../common/randdp.c ../common/c_timers.c ../common/wtime.c -lpapi -lm
+
+//EP
+gcc  -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib mg.c -o papiCG_last ../common/print_results.c ../common/randdp.c ../common/c_timers.c ../common/wtime.c -lpapi -lm
+
+//bt
+
+gcc -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib -o output bt.c  initialize.c exact_solution.c exact_rhs.c set_constants.c adi.c  rhs.c x_solve.c y_solve.c solve_subs.c z_solve.c add.c error.c verify.c ../common/print_results.c ../common/c_timers.c ../common/wtime.c -lpapi -lm
+
+//EP
+gcc -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib -o output ep.c ../common/print_results.o ../common/randdp.o ../common/c_timers.o ../common/wtime.o -lpapi -lm
+
+//sp
+gcc -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib -o output add.c adi.c error.c exact_rhs.c exact_solution.c initialize.c ninvr.c  pinvr.c rhs.c set_constants.c sp.c txinvr.c tzetar.c verify.c x_solve.c y_solve.c z_solve.c  ../common/print_results.o ../common/randdp.o ../common/c_timers.o ../common/wtime.o -lpapi -lm
+
+
+//UA
+gcc -I/${PAPI_DIR}/include -L/${PAPI_DIR}/lib -o papi_UA adapt.c convect.c diffuse.c mason.c move.c precond.c  setup.c transfer.c ua.c utils.c verify.c  ../common/print_results.o ../common/randdp.o ../common/c_timers.o ../common/wtime.o -lpapi -lm
+
+
+
+  eventset = PAPI_NULL;
+  init(&eventset, options);
+  strncpy(loopid, "find_coarsen#0", sizeof(loopid));
+  StartMeasure(loopid, &eventset);
+  
+  outsideIter++;
+  /*----------Write values to a file-------------*/
+   PAPI_accum(eventset, &countOutside);
+   /***************************************************/
+  PAPI_stop(eventset, &countOutside);
+  writeToFileNew(countOutside, name, loopid, outsideIter);
+  /*-----------Restar values------------*/
+  restartArray(countOutside);
+  outsideIter = 0;
+

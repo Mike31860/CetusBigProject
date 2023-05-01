@@ -1,0 +1,1337 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "cetus.exec.Driver",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoSortedLists",
+            "request": "launch",
+            "mainClass": "cetus.gui.MergeTwoSortedLists",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "ValidParentheses",
+            "request": "launch",
+            "mainClass": "cetus.gui.ValidParentheses",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer",
+            "request": "launch",
+            "mainClass": "cetus.server.TCPServer",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "CetusGUI",
+            "request": "launch",
+            "mainClass": "cetus.server.speed_up.CetusGUI",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "TestTripletRunner",
+            "request": "launch",
+            "mainClass": "cetus.unittest.TestTripletRunner",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "OMP2GPUDriver",
+            "request": "launch",
+            "mainClass": "omp2gpu.exec.OMP2GPUDriver",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "OOXMLPasswordsTry",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.crypt.OOXMLPasswordsTry",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CopyCompare",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hpsf.CopyCompare",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ModifyDocumentSummaryInformation",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hpsf.ModifyDocumentSummaryInformation",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ReadCustomPropertySets",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hpsf.ReadCustomPropertySets",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ReadTitle",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hpsf.ReadTitle",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WriteAuthorAndTitle",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hpsf.WriteAuthorAndTitle",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WriteTitle",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hpsf.WriteTitle",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ApacheconEU08",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.ApacheconEU08",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BulletsDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.BulletsDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreateHyperlink",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.CreateHyperlink",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "DataExtraction",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.DataExtraction",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Graphics2DDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.Graphics2DDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HeadersFootersDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.HeadersFootersDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Hyperlinks",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.Hyperlinks",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SoundFinder",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.SoundFinder",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "TableDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hslf.TableDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Msg2txt",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hsmf.Msg2txt",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "XLS2CSVmra",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.eventusermodel.XLS2CSVmra",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Alignment",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.Alignment",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BigExample",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.BigExample",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Borders",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.Borders",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CellComments",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.CellComments",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CellTypes",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.CellTypes",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreateCells",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.CreateCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreateDateCells",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.CreateDateCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "EmbeddedObjects",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.EmbeddedObjects",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "EventExample",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.EventExample",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "FrillsAndFills",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.FrillsAndFills",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HSSFReadWrite",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.HSSFReadWrite",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HyperlinkFormula",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.HyperlinkFormula",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Hyperlinks(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.Hyperlinks",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "InCellLists",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.InCellLists",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "MergedCells",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.MergedCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "NewLinesInCells",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.NewLinesInCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "NewSheet",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.NewSheet",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "NewWorkbook",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.NewWorkbook",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "OfficeDrawing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.OfficeDrawing",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "OfficeDrawingWithGraphics",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.OfficeDrawingWithGraphics",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Outlines",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.Outlines",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ReadWriteWorkbook",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.ReadWriteWorkbook",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "RepeatingRowsAndColumns",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.RepeatingRowsAndColumns",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SplitAndFreezePanes",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.SplitAndFreezePanes",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WorkingWithFonts",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.WorkingWithFonts",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ZoomSheet",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hssf.usermodel.ZoomSheet",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ROP2Table",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hwmf.ROP2Table",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ROP3Table",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hwmf.ROP3Table",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Word2Forrest",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.hwpf.Word2Forrest",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "AddDimensionedImage",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.AddDimensionedImage",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "AligningCells",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.AligningCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BusinessPlan",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.BusinessPlan",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CalendarDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.CalendarDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CellStyleDetails",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.CellStyleDetails",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ConditionalFormats",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.ConditionalFormats",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "DrawingBorders",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.DrawingBorders",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ExcelComparator",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.ExcelComparator",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "LoadEmbedded",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.LoadEmbedded",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "LoanCalculator",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.LoanCalculator",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SSPerformanceTest",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.SSPerformanceTest",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "TimesheetDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.TimesheetDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ToCSV",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.ToCSV",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CheckFunctionsSupported",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.formula.CheckFunctionsSupported",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SettingExternalFunction",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.formula.SettingExternalFunction",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "UserDefinedFunctionExample",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.formula.UserDefinedFunctionExample",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ToHtml",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.ss.html.ToHtml",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BarChartDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.BarChartDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ChartFromScratch",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.ChartFromScratch",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "DataExtraction(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.DataExtraction",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "DoughnutChartFromScratch",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.DoughnutChartFromScratch",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "LinkVideoToPptx",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.LinkVideoToPptx",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "MergePresentations",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.MergePresentations",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "PieChartDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.PieChartDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SmartArtConversionDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.SmartArtConversionDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Tutorial1",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.Tutorial1",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Tutorial2",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.Tutorial2",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Tutorial3",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.Tutorial3",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Tutorial4",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.Tutorial4",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Tutorial5",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.Tutorial5",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Tutorial6",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.Tutorial6",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Tutorial7",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.Tutorial7",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Step1",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.tutorial.Step1",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Step2",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xslf.tutorial.Step2",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "FromHowTo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.eventusermodel.FromHowTo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "LoadPasswordProtectedXlsxStreaming",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.eventusermodel.LoadPasswordProtectedXlsxStreaming",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "XLSX2CSV",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.eventusermodel.XLSX2CSV",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "DeferredGeneration",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.streaming.DeferredGeneration",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HybridStreaming",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.streaming.HybridStreaming",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Outlining",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.streaming.Outlining",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SavePasswordProtectedXlsx",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.streaming.SavePasswordProtectedXlsx",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "AligningCells(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.AligningCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BarAndLineChart",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.BarAndLineChart",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BarChart",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.BarChart",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BigGridDemo",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.BigGridDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CalendarDemo(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CalendarDemo",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CellComments(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CellComments",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreateCell",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CreateCell",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreatePivotTable",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CreatePivotTable",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreatePivotTable2",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CreatePivotTable2",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreateTable",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CreateTable",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CreateUserDefinedDataFormats",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CreateUserDefinedDataFormats",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "CustomXMLMapping",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.CustomXMLMapping",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "EmbeddedObjects(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.EmbeddedObjects",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ExcelChartWithTargetLine",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.ExcelChartWithTargetLine",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "FillsAndColors",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.FillsAndColors",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "FitSheetToOnePage",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.FitSheetToOnePage",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HeadersAndFooters",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.HeadersAndFooters",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HyperlinkExample",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.HyperlinkExample",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "IterateCells",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.IterateCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "LineChart",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.LineChart",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "LoadPasswordProtectedXlsx",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.LoadPasswordProtectedXlsx",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "MergingCells",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.MergingCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "NewLinesInCells(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.NewLinesInCells",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "Outlining(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.Outlining",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ScatterChart",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.ScatterChart",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SelectedSheet",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.SelectedSheet",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ShiftRows",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.ShiftRows",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SplitAndFreezePanes(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.SplitAndFreezePanes",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WorkbookProperties",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.WorkbookProperties",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WorkingWithBorders",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.WorkingWithBorders",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WorkingWithFonts(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.WorkingWithFonts",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WorkingWithPageSetup",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.WorkingWithPageSetup",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WorkingWithPictures",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.WorkingWithPictures",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "WorkingWithRichText",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xssf.usermodel.WorkingWithRichText",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BarChartExample",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.BarChartExample",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "BetterHeaderFooterExample",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.BetterHeaderFooterExample",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "ChartFromScratch(1)",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.ChartFromScratch",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HeaderFooterTable",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.HeaderFooterTable",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDocument",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.SimpleDocument",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDocumentWithHeader",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.SimpleDocumentWithHeader",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SimpleImages",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.SimpleImages",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "SimpleTable",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.SimpleTable",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "UpdateEmbeddedDoc",
+            "request": "launch",
+            "mainClass": "org.apache.poi.examples.xwpf.usermodel.UpdateEmbeddedDoc",
+            "projectName": "poi-examples"
+        },
+        {
+            "type": "java",
+            "name": "HSLFFileHandler",
+            "request": "launch",
+            "mainClass": "org.apache.poi.stress.HSLFFileHandler",
+            "projectName": "poi-integration"
+        },
+        {
+            "type": "java",
+            "name": "AddImageBench",
+            "request": "launch",
+            "mainClass": "org.apache.poi.benchmark.AddImageBench",
+            "projectName": "poi-ooxml"
+        },
+        {
+            "type": "java",
+            "name": "OOXMLLister",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ooxml.dev.OOXMLLister",
+            "projectName": "poi-ooxml"
+        },
+        {
+            "type": "java",
+            "name": "OOXMLPrettyPrint",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ooxml.dev.OOXMLPrettyPrint",
+            "projectName": "poi-ooxml"
+        },
+        {
+            "type": "java",
+            "name": "CommandLineTextExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ooxml.extractor.CommandLineTextExtractor",
+            "projectName": "poi-ooxml"
+        },
+        {
+            "type": "java",
+            "name": "HierarchyPrinter",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xdgf.util.HierarchyPrinter",
+            "projectName": "poi-ooxml"
+        },
+        {
+            "type": "java",
+            "name": "VsdxToPng",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xdgf.util.VsdxToPng",
+            "projectName": "poi-ooxml"
+        },
+        {
+            "type": "java",
+            "name": "PPTX2PNG",
+            "request": "launch",
+            "mainClass": "org.apache.poi.xslf.util.PPTX2PNG",
+            "projectName": "poi-ooxml"
+        },
+        {
+            "type": "java",
+            "name": "PropertyIDMap",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hpsf.wellknown.PropertyIDMap",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "ExcelExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.extractor.ExcelExtractor",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "OldExcelExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.extractor.OldExcelExtractor",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "POIFSDump",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSDump",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "POIFSLister",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSLister",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "POIFSViewer",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSViewer",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "POIFSReader",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.eventfilesystem.POIFSReader",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "POIFSFileSystem",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.POIFSFileSystem",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "ReaderWriter",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.ReaderWriter",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "VBAMacroExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.macros.VBAMacroExtractor",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "ExcelCetabFunctionExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ss.formula.function.ExcelCetabFunctionExtractor",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "ExcelFileFormatDocFunctionExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ss.formula.function.ExcelFileFormatDocFunctionExtractor",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "NumberComparingSpreadsheetGenerator",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ss.util.NumberComparingSpreadsheetGenerator",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "NumberRenderingSpreadsheetGenerator",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ss.util.NumberRenderingSpreadsheetGenerator",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "DrawingDump",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.DrawingDump",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "FontMetricsDumper",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.FontMetricsDumper",
+            "projectName": "poi-poi"
+        },
+        {
+            "type": "java",
+            "name": "VSDDumper",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hdgf.dev.VSDDumper",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "HMEFDumper",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hmef.dev.HMEFDumper",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "HMEFContentsExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hmef.extractor.HMEFContentsExtractor",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "HPBFDumper",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hpbf.dev.HPBFDumper",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "PLCDumper",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hpbf.dev.PLCDumper",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "PPDrawingTextListing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.PPDrawingTextListing",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "PPTXMLDump",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.PPTXMLDump",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "SLWTListing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.SLWTListing",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "SLWTTextListing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.SLWTTextListing",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "SlideAndNotesAtomListing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.SlideAndNotesAtomListing",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "SlideIdListing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.SlideIdListing",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "SlideShowDumper",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.SlideShowDumper",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "SlideShowRecordDumper",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.SlideShowRecordDumper",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "TextStyleListing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.TextStyleListing",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "UserEditAndPersistListing",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.dev.UserEditAndPersistListing",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "ImageExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.extractor.ImageExtractor",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "QuickButCruddyTextExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hslf.extractor.QuickButCruddyTextExtractor",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "HSMFDump",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hsmf.dev.HSMFDump",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "TypesLister",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hsmf.dev.TypesLister",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "OutlookTextExtractor",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hsmf.extractor.OutlookTextExtractor",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "ExcelToFoConverter",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.converter.ExcelToFoConverter",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "ExcelToHtmlConverter",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.converter.ExcelToHtmlConverter",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "QuickTest",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hwpf.QuickTest",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "WordToFoConverter",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hwpf.converter.WordToFoConverter",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "WordToHtmlConverter",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hwpf.converter.WordToHtmlConverter",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "WordToTextConverter",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hwpf.converter.WordToTextConverter",
+            "projectName": "poi-scratchpad"
+        },
+        {
+            "type": "java",
+            "name": "HWPFLister",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hwpf.dev.HWPFLister",
+            "projectName": "poi-scratchpad"
+        }
+    ]
+}
