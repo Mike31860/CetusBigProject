@@ -1,0 +1,255 @@
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.23
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.10
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    77.08
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.37
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=1 -range=0
+ Time in seconds =                    77.18
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=1 -range=1
+ Time in seconds =                    77.17
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    77.09
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    77.17
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -range=0
+ Time in seconds =                    80.06
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    80.10
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    79.91
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    80.02
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=1 -range=0
+ Time in seconds =                    80.07
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    80.08
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    79.96
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    80.13
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.54
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.17
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    78.54
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.34
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=1 -range=0
+ Time in seconds =                    77.56
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=1 -range=1
+ Time in seconds =                    77.29
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    77.25
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    77.33
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=0 -range=0
+ Time in seconds =                    80.51
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    79.94
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    80.18
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    80.04
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=1 -range=0
+ Time in seconds =                    79.93
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    80.11
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    80.16
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    80.25
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    76.98
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.36
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    77.31
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.42
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -range=0
+ Time in seconds =                    77.46
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -range=1
+ Time in seconds =                    77.57
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    78.34
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    77.38
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=0 -range=0
+ Time in seconds =                    80.06
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    80.36
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    80.14
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    80.78
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=1 -range=0
+ Time in seconds =                    79.99
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    79.92
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    80.11
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    80.37
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.78
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    78.18
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    77.38
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.43
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=1 -range=0
+ Time in seconds =                    77.42
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=1 -range=1
+ Time in seconds =                    78.08
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    77.33
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    77.54
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -range=0
+ Time in seconds =                    79.96
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    80.16
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    80.04
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    80.09
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -range=0
+ Time in seconds =                    80.55
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    80.00
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    81.08
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    80.11

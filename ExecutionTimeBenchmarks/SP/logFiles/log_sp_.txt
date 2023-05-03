@@ -1,0 +1,244 @@
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+Time one = 49.43 Time two =49.40 Time Three = 50.27
+Time in seconds = 49.70
+-----------
+-alias=2 -induction=0 -privatize=2 -parallelize-loops=1 -reduction=2 -loop-interchange -range=1
+Time one = 54.24 Time two =53.80 Time Three = 49.15
+Time in seconds = 52.39
+-----------
+-alias=2 -induction=3 -privatize=0 -parallelize-loops=1 -reduction=2 -loop-interchange -range=1
+Time one = 49.91 Time two =50.43 Time Three = 50.82
+Time in seconds = 50.38
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=2 -loop-interchange -range=1
+Time one = 43.69 Time two =43.73 Time Three = 44.07
+Time in seconds = 43.83
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=1 -reduction=0 -loop-interchange -range=1
+Time one = 48.29 Time two =48.74 Time Three = 48.35
+Time in seconds = 48.46
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=1 -reduction=2 -range=1
+Time one = 48.81 Time two =48.26 Time Three = 48.29
+Time in seconds = 48.45
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=1 -reduction=2 -loop-interchange -range=0
+Time one = 48.24 Time two =50.59 Time Three = 49.34
+Time in seconds = 49.39
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=2 -loop-interchange -range=1
+Time one = 44.37 Time two =43.56 Time Three = 43.56
+Time in seconds = 43.83
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=2 -range=1
+Time one = 44.31 Time two =44.47 Time Three = 44.96
+Time in seconds = 44.58
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=0 -range=1
+Time one = 44.71 Time two =44.22 Time Three = 44.57
+Time in seconds = 44.50
+-----------
+-alias=2 -induction=0 -privatize=2 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 44.30 Time two =44.44 Time Three = 44.01
+Time in seconds = 44.25
+-----------
+-alias=2 -induction=3 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 43.78 Time two =43.53 Time Three = 43.46
+Time in seconds = 43.59
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 43.87 Time two =44.95 Time Three = 43.44
+Time in seconds = 44.08
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.84 Time two =48.87 Time Three = 48.96
+Time in seconds = 48.89
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.93 Time two =48.22 Time Three = 48.53
+Time in seconds = 48.56
+-----------
+-alias=2 -induction=3 -privatize=2 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.79 Time two =49.17 Time Three = 48.89
+Time in seconds = 49.28
+-----------
+-alias=2 -induction=3 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.09 Time two =50.07 Time Three = 50.14
+Time in seconds = 49.76
+-----------
+-alias=2 -induction=3 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.50 Time two =49.00 Time Three = 49.57
+Time in seconds = 49.35
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.12 Time two =49.57 Time Three = 47.75
+Time in seconds = 48.48
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.43 Time two =48.58 Time Three = 47.89
+Time in seconds = 48.63
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.94 Time two =48.09 Time Three = 48.02
+Time in seconds = 48.01
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.76 Time two =49.17 Time Three = 49.14
+Time in seconds = 49.35
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.03 Time two =48.38 Time Three = 48.75
+Time in seconds = 48.72
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.22 Time two =49.30 Time Three = 48.58
+Time in seconds = 49.03
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.52 Time two =49.92 Time Three = 48.83
+Time in seconds = 49.09
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.77 Time two =48.90 Time Three = 48.46
+Time in seconds = 48.71
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.86 Time two =49.96 Time Three = 46.75
+Time in seconds = 48.52
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.75 Time two =48.64 Time Three = 49.72
+Time in seconds = 49.03
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.66 Time two =49.13 Time Three = 48.75
+Time in seconds = 49.18
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.01 Time two =48.32 Time Three = 50.03
+Time in seconds = 49.12
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.54 Time two =48.20 Time Three = 48.97
+Time in seconds = 48.90
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.85 Time two =49.06 Time Three = 47.74
+Time in seconds = 48.21
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.77 Time two =47.69 Time Three = 48.05
+Time in seconds = 47.83
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.48 Time two =47.42 Time Three = 46.60
+Time in seconds = 47.50
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.57 Time two =48.43 Time Three = 48.15
+Time in seconds = 48.38
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.82 Time two =47.85 Time Three = 48.22
+Time in seconds = 47.96
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.43 Time two =48.77 Time Three = 50.80
+Time in seconds = 49.33
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.09 Time two =49.03 Time Three = 48.45
+Time in seconds = 48.52
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.72 Time two =48.19 Time Three = 47.46
+Time in seconds = 47.79
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.60 Time two =48.94 Time Three = 48.70
+Time in seconds = 49.08
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.11 Time two =47.07 Time Three = 47.58
+Time in seconds = 47.58
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.27 Time two =48.74 Time Three = 48.08
+Time in seconds = 48.36
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.72 Time two =47.11 Time Three = 49.38
+Time in seconds = 48.40
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.61 Time two =47.82 Time Three = 47.74
+Time in seconds = 47.72
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.97 Time two =48.50 Time Three = 48.18
+Time in seconds = 48.21
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.23 Time two =50.11 Time Three = 47.04
+Time in seconds = 48.79
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.03 Time two =47.23 Time Three = 48.07
+Time in seconds = 47.44
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.47 Time two =48.22 Time Three = 48.82
+Time in seconds = 48.50
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.51 Time two =49.02 Time Three = 48.00
+Time in seconds = 48.51
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.47 Time two =47.52 Time Three = 48.42
+Time in seconds = 48.13
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.26 Time two =48.66 Time Three = 48.05
+Time in seconds = 47.99
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.08 Time two =49.10 Time Three = 48.45
+Time in seconds = 48.54
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 181.46 Time two =181.85 Time Three = 182.86
+Time in seconds = 182.05
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 57.26 Time two =50.71 Time Three = 53.09
+Time in seconds = 53.68
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 50.81 Time two =47.21 Time Three = 46.49
+Time in seconds = 48.17
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.37 Time two =46.21 Time Three = 45.83
+Time in seconds = 47.13
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 47.18 Time two =48.81 Time Three = 50.40
+Time in seconds = 48.79
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 50.58 Time two =59.61 Time Three = 53.99
+Time in seconds = 54.72
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 49.31 Time two =47.73 Time Three = 50.29
+Time in seconds = 49.11
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+Time one = 48.89 Time two =47.45 Time Three = 51.54
+Time in seconds = 49.29
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0

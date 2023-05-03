@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "randdp.h": "c",
+        "timers.h": "c",
+        "print_results.h": "c",
+        "npbparams.h": "c",
+        "time.h": "c",
+        "math.h": "c",
+        "stdlib.h": "c",
+        "globals.h": "c",
+        "stdio.h": "c"
+    }
+}

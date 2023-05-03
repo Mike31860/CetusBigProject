@@ -1,0 +1,77 @@
+-----------
+-alias=2
+ Time in seconds =                    55.81
+-----------
+-----------
+-alias=2 -induction=0 -privatize=2 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    51.64
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -range=1
+
+
+Chromosome 0 {IPARLG}
+Chromosome 1 {IPARLG}
+Chromosome 2 {IPARLG}
+Chromosome 3 {IPARLG}
+Chromosome 4 {IPARLG}
+Chromosome 5 {IPARLG}
+Chromosome 6 {IPARLG}
+Chromosome 7 {IPARLG}
+
+Chromosome: 0
+Transformation: Induction Enable: false
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: true
+Chromosome: 1
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: false
+Transformation: RangeAnalysis Enable: false
+Chromosome: 2
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: true
+Transformation: Parallelization Enable: true
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: false
+Chromosome: 3
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: true
+Transformation: Parallelization Enable: true
+Transformation: Reduction Enable: true
+Transformation: Loop-interchange Enable: false
+Transformation: RangeAnalysis Enable: true
+Chromosome: 4
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: true
+Transformation: Parallelization Enable: true
+Transformation: Reduction Enable: true
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: false
+Chromosome: 5
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: true
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: false
+Chromosome: 6
+Transformation: Induction Enable: false
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: true
+Chromosome: 7
+Transformation: Induction Enable: false
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: true

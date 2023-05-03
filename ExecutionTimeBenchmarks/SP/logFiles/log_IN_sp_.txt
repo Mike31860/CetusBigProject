@@ -1,0 +1,5 @@
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+-----------
+-alias=2
+-----------

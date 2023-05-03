@@ -1,0 +1,301 @@
+-----------
+-alias=2
+ Time in seconds =                    80.02
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.22
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    77.12
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    79.87
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    79.99
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    80.03
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.35
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.19
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    79.82
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.16
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    77.40
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    79.97
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    79.77
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.18
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.33
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    79.97
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.07
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.26
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    77.04
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    80.23
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    80.07
+-----------
+-----------
+-alias=2 -induction=0 -privatize=1 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.32
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.32
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=1
+ Time in seconds =                    80.11
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=0 -reduction=0 -range=1
+ Time in seconds =                    77.32
+-----------
+-----------
+-alias=2
+-----------
+-alias=2
+ Time in seconds =                    80.22
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.30
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=0 -range=1
+ Time in seconds =                    80.28
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    79.94
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.09
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    79.91
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    79.79
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    79.91
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    77.53
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.08
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    80.41
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.66
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    79.96
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    80.11
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    80.06
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    77.31
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.65
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.25
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.41
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    79.88
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    79.97
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    80.06
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    77.21
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.67
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.64
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.13
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=0 -range=0
+ Time in seconds =                    77.31
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=0 -loop_interchange -range=0
+ Time in seconds =                    80.34
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -range=1
+ Time in seconds =                    79.87
+-----------
+-----------
+-alias=2 -induction=1 -privatize=1 -parallelize-loops=1 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    80.13
+-----------
+-----------
+-alias=2 -induction=1 -privatize=0 -parallelize-loops=0 -reduction=1 -loop_interchange -range=0
+ Time in seconds =                    77.71
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.21
+-----------
+-----------
+-alias=2 -induction=0 -privatize=0 -parallelize-loops=0 -reduction=0 -loop_interchange -range=1
+ Time in seconds =                    77.43
+-----------
+
+
+Chromosome 0 {IPARLG}
+Chromosome 1 {IPARLG}
+Chromosome 2 {IPARLG}
+Chromosome 3 {IPARLG}
+Chromosome 4 {IPARLG}
+Chromosome 5 {IPARLG}
+Chromosome 6 {IPARLG}
+Chromosome 7 {IPARLG}
+
+Chromosome: 0
+Transformation: Induction Enable: false
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: true
+Chromosome: 1
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: false
+Transformation: RangeAnalysis Enable: false
+Chromosome: 2
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: true
+Transformation: Parallelization Enable: true
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: false
+Chromosome: 3
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: true
+Transformation: Parallelization Enable: true
+Transformation: Reduction Enable: true
+Transformation: Loop-interchange Enable: false
+Transformation: RangeAnalysis Enable: true
+Chromosome: 4
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: true
+Transformation: Parallelization Enable: true
+Transformation: Reduction Enable: true
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: false
+Chromosome: 5
+Transformation: Induction Enable: true
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: true
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: false
+Chromosome: 6
+Transformation: Induction Enable: false
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: true
+Chromosome: 7
+Transformation: Induction Enable: false
+Transformation: Privatization Enable: false
+Transformation: Parallelization Enable: false
+Transformation: Reduction Enable: false
+Transformation: Loop-interchange Enable: true
+Transformation: RangeAnalysis Enable: true

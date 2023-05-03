@@ -1,0 +1,4 @@
+[-alias=2 , -induction=3, -privatize=2, -parallelize-loops=1, -reduction=2, -loop-interchange, -range=1]             
+
+
+

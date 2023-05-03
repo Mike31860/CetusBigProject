@@ -1,6 +1,13 @@
 {
     "files.associations": {
         "timers.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "header.h": "c",
+        "stdio.h": "c",
+        "time_diff.h": "c",
+        "stdlib.h": "c",
+        "npbparams.h": "c",
+        "headervariable.h": "c",
+        "print_results.h": "c"
     }
 }

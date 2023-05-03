@@ -26,10 +26,34 @@ squeue -u $USER
 //cg
 gcc -O3 cg.c -o cgExec ../common/print_results.c ../common/randdp.c ../common/c_timers.c ../common/wtime.c -lm
 
+//MG
+gcc -O3 mg.c -o mgExec ../common/print_results.c ../common/randdp.c ../common/c_timers.c ../common/wtime.c -lm
+
+//EP
+gcc -O3 ep.c -o epExec ../common/print_results.c ../common/randdp.c ../common/c_timers.c ../common/wtime.c  -lm
+
+//BT
+gcc -O3 -o outputTimer bt.c time_diff.c initialize.c exact_solution.c exact_rhs.c set_constants.c adi.c  rhs.c x_solve.c y_solve.c z_solve.c add.c error.c solve_subs.c    verify.c ../../common/print_results.c ../../common/c_timers.c ../../common/wtime.c -lm
+//compilation
+"args": "-alias=2 -profileLoop-timer C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/bt.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/initialize.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/exact_solution.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/exact_rhs.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/set_constants.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/adi.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/rhs.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/x_solve.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/y_solve.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/z_solve.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/solve_subs.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/add.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/error.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/BT/verify.c",
+
+//SP
+gcc  -o outputTimerOuter sp.c time_diff.c  initialize.c exact_solution.c exact_rhs.c set_constants.c adi.c rhs.c x_solve.c y_solve.c z_solve.c add.c  error.c    ninvr.c  pinvr.c   txinvr.c tzetar.c verify.c   ../../common/print_results.o ../../common/randdp.o ../../common/c_timers.o ../../common/wtime.o  -lm
+//compilation
+"args": "-alias=2 -profileLoop-timer C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/sp.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/initialize.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/exact_solution.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/exact_rhs.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/set_constants.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/adi.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/rhs.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/x_solve.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/y_solve.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/z_solve.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/add.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/error.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/ninvr.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/pinvr.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/txinvr.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/SP/tzetar.c",
 
 
 
+//UA
 
+gcc  -o outputTimerOuter time_diff.c ua.c adapt.c convect.c diffuse.c mason.c move.c precond.c  setup.c transfer.c  utils.c verify.c  ../../common/print_results.o ../../common/randdp.o ../../common/c_timers.o ../../common/wtime.o  -lm
+//COMPILATION
+ "args": "-alias=2 -profileLoop-timer C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/ua.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/adapt.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/convect.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/diffuse.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/mason.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/move.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/precond.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/setup.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/transfer.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/utils.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/UA/verify.c ",
+
+//FT
+gcc -O3 -fopenmp -mcmodel=large -o  appft.c auxfnct.c fft3d.c mainft.c verify.c ../../common/randdp.c ../../common/print_results.c ../../common/c_timers.c ../../common/wtime.c -lm
+
+ "args": "-alias=2 -profileLoop-timer C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/FT/appft.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/FT/auxfnct.c  C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/FT/fft3d.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/FT/mainft.c C:/Users/Migue/Desktop/WorkSpacePhD/CetusBigProject/ExecutionTimeBenchmarks/FT/verify.c",
 
 
 

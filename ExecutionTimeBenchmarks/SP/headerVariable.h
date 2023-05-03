@@ -1,0 +1,11 @@
+extern double time_spent9;
+extern double time_spent10;
+extern double time_spent11;
+extern double time_spent12;
+extern double time_spent13;
+extern double time_spent14;
+extern double time_spent15;
+extern double time_spent16;
+extern double time_spent17;
+extern double time_spent18;
+extern double time_spent19;
